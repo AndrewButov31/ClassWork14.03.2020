@@ -1,0 +1,78 @@
+/*.textMyColumn{*/
+/*    display: block;*/
+/*    width: 50%;*/
+/*    !*padding-top: 20px;*!*/
+/*    !*padding-right: 30px;*!*/
+/*    !*padding-bottom: 20px;*!*/
+/*    !*padding-right: 30px;*!*/
+/*    padding: 20px 30px 20px 30px;*/
+/*    !*padding: 20px 30px;*!*/
+/*    !*padding: 20px 30px 20px;*!*/
+/*    !*padding: 20px;*!*/
+/*    box-sizing: border-box;*/
+/*    border: 2px solid blue;*/
+/*}*/
+/*.negMargin{*/
+/*    margin-left: -6px;*/
+/*}*/
+/*.bigMargin{*/
+/*    margin-top: 50px;*/
+/*}*/
+/*td,th{*/
+/*    border-width: 2px;*/
+/*    border-style: solid;*/
+/*    border-color: blue;*/
+/*}*/
+#innerContainer{
+    width: 100%;
+    background-color: #ff5500;
+    padding: 50px;
+    display:flex;
+    justify-content: center;
+}
+.userCardContainer{
+    background-color: rgb(255,255,255);
+    width: 250px;
+    min-height: 120px;
+    max-height: 250px;
+    border: 2px solid green;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.userCardContainer > * {
+    margin: 0 auto;
+}
+.userCardContainer > h3 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: cadetblue;
+    padding: inherit;
+}
+.userCardContainer > h4 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: rgba(0,0,255, 0.4);
+    padding: inherit;
+}
+.userCardContainer > hr {
+    width: 70px;
+    margin-top: 25px;
+    border: 1px solid gray;
+    opacity: 0.3;
+}
+.userAvatar{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 50%;
+    background-image: url("https://i.pinimg.com/originals/82/37/5f/82375fa0115f41490b1129ad44794071.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iconContainer{
+    text-align: center;
+}
